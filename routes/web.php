@@ -24,3 +24,6 @@ Route::get('/newView', function () {//enter /newView for getting new view which 
 Route::get('/newView2', function () {//enter /newView2 for getting new view which called "personal_info2" 
     return view('personal_info2');
 });
+Route::get('/home',function(){
+    return "home";
+});
